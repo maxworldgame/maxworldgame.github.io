@@ -10,7 +10,7 @@ function setup() {
 var playerSize = 100;
 
 function draw() {
-	background(200);
+	background(100);
 
 	fill(255, 0, 0);
 	image(img, mouseX, mouseY, playerSize, playerSize);
