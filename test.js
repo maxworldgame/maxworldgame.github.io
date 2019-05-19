@@ -1,8 +1,10 @@
 let img;
+let song;
 
 function setup() {
 	createCanvas(800, 800);
 	img = loadImage('player.png');
+	song = loadSong('data/sound/fightSong.mp3');
 }
 
 var playerSize = 100;
@@ -15,5 +17,6 @@ function draw() {
 
 	if(mouseIsPressed){
 		playerSize++;
+		song.play();
 	}
 }
