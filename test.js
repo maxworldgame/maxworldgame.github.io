@@ -16,7 +16,7 @@ function draw() {
 	background(100);
 
 	fill(255, 0, 0);
-	image(img, player.playerX, player.playerY, playerSize, playerSize);
+	image(img, player.getPlayerX(), player.getPlayerY(), playerSize, playerSize);
 
 	if(mouseIsPressed){
 		playerSize++;

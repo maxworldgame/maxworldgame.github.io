@@ -1,39 +1,33 @@
-class Player {
-  var playerX;
-  var playerY;
-  var playerSpeed;
+function Player(playerX, playerY, playerSpeed) {
+  this.playerX = playerX;
+  this.playerY = playerY;
+  this.playerSpeed = playerSpeed;
   
-  Player(var playerX, var playerY, var playerSpeed) {
-    this.playerX = playerX;
-    this.playerY = playerY;
-    this.playerSpeed = playerSpeed;
-  }
-  
-  getPlayerX(){
+  this.getPlayerX = function(){
     return playerX;
   }
   
-  getPlayerY(){
+  this.getPlayerY = function(){
     return playerY;
   }
   
-  setPlayerX(var x){
+  this.setPlayerX = function(x){
     playerX = x;
   }
   
-  setPlayerY(var y){
+  this.setPlayerY = function(y){
     playerY = y;
   }
   
-  changePlayerX(var c){
+  this.changePlayerX = function(c){
     playerX += c;
   }
   
-  changePlayerY(var c){
+  this.changePlayerY = function(c){
     playerY += c;
   }
   
-  getPlayerSpeed(){
+  this.getPlayerSpeed = function(){
     return playerSpeed;
   }
 }
