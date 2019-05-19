@@ -2,9 +2,10 @@ let img;
 let song;
 
 function setup() {
-	createCanvas(800, 800);
+	createCanvas(1250, 750);
 	img = loadImage('player.png');
 	song = loadSound('data/sound/fightSong.mp3');
+	imageMode(CENTER);
 }
 
 var playerSize = 100;
