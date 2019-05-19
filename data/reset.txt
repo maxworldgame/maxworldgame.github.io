@@ -1,0 +1,12 @@
+This txt file contains the conditions of a new game
+
+index 0: playerX = 100
+index 1: playerY = 100
+index 2: mapX = 0
+index 3: mapY = 0
+index 4: playerSpeed = 3
+index 5: playerDamage = 40
+index 6: health = 1000
+index 7: maxHealth = 1000
+index 8: mana = 100
+index 9: maxMana = 100

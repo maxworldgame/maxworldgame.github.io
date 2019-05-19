@@ -1,0 +1,12 @@
+5.17.19
+Updated player control system: Can now walk in multiple directions
+Updated player control bug: Will travel in the correct direction as key pressed
+Added "Display" class, where text can be displayed across a period of time
+
+	        Change display from frames to milliseconds, eventually get rid of lag allow and do the same?
+	        Try to do that, or else the battle will run on different speeds on different computers
+	        Display text doesn't reset between screen changes, fix this. You can make display.n = 0 upon screen changes or something
+		Get rid of "timer++". Create new variable "currentTime". Every time we set timer = 0, instead make currentTime = millis();. Make timer = millis() - currentTime;
+	      
+Next time ----> Reset everything upon player exit battle, e.g. button select, enemyTurn, playerTurn, battle interface, etc.
+	
